@@ -1,4 +1,4 @@
-# Face_Recognition
+# Face_Orientations_Predictor
 Downloading Face Images: The code starts by downloading face images from a given URL. It traverses through the directories and subdirectories, downloading .pgm files that contain images of faces with different orientations (left, straight, up, down).
 Data Preprocessing: After downloading the images, the code preprocesses them by resizing each image to a fixed size (32x30) and normalizing pixel values to the range [0, 1].
 Data Labeling: The code extracts labels from file names, which indicate the orientation of the face in each image.
